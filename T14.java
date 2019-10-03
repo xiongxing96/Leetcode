@@ -23,9 +23,9 @@ public class T14 {
 	}
 	public static void main(String [] args) {
 		String [] strs= {"leetccc","leetcode1","leetcd","leetco"};
-		System.out.println(strs[0]);
-		System.out.println("acbbcdj".indexOf("bbc"));
-		System.out.println(strs[1].indexOf(strs[3]));
+// 		System.out.println(strs[0]);
+// 		System.out.println("acbbcdj".indexOf("bbc"));
+// 		System.out.println(strs[1].indexOf(strs[3]));
 		System.out.println(new T14().longestCommonPrefix(strs));
 	}
 }
